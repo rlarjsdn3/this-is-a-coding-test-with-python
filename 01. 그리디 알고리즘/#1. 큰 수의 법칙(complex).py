@@ -1,4 +1,4 @@
-
+# 01. 큰 수의 법칙(complex) - p. 92
 
 n, m, k = map(int, input().split())
 data = list(map(int, input().split()))
