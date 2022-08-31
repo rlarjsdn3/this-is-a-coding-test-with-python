@@ -1,4 +1,4 @@
-# 소수의 판별
+# 소수의 판별(simple)
 
 def is_prime_number(x):
     # 2부터 (x-1)까지의 모든 수를 확인하며
