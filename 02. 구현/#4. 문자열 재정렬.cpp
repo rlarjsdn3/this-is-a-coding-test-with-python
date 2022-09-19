@@ -3,7 +3,6 @@
 #include <iostream>
 #include <list>
 #include <iterator>
-//#include <cctype>
 using namespace std;
 
 bool compare(const char c1, const char c2) {
