@@ -8,13 +8,13 @@ int main(void) {
     cin >> str;
 
     int mid = str.size() / 2;
-    int sum1 = 0, sum2 = 0;
+    int sum = 0
     for(int i=0; i<str.size()/2; i++) {
-        sum1 += (str[i] - '0');
-        sum2 += (str[str.size()-i-1] - '0');
+        sum += (str[i] - '0');
+        sum -= (str[str.size()-i-1] - '0');
     }
 
-    if(sum1 == sum2) {
+    if(sum == 0) {
         cout << "LUCKY" << endl;
     } else {
         cout << "READY" << endl;
