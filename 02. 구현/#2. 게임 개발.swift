@@ -1,3 +1,5 @@
+#2. 게임 개발 - p. 118
+
 import Foundation
 
 var input: [Int]
