@@ -1,3 +1,5 @@
+#4. 문자열 재정렬 - p. 322
+
 import Foundation
 
 let s: String = readLine()!
