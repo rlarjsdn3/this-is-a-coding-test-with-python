@@ -1,3 +1,5 @@
+#3. 럭키 스트레이트 - p. 321
+
 import Foundation
 
 let n: String = readLine()!
