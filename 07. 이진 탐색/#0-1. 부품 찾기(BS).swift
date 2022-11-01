@@ -18,14 +18,14 @@ func binarySearch(_ target: Int, array: [Int], left: Int, right: Int) -> Int {
 }
 
 var n: Int = Int(readLine()!)!
-var array1: [Int] = readLine()!.components(separatedBy: " ").map { Int($0)! }
-array1.sort()
+var array: [Int] = readLine()!.components(separatedBy: " ").map { Int($0)! }
+array.sort()
 
 n = Int(readLine()!)!
-var array2: [Int] = readLine()!.components(separatedBy: " ").map { Int($0)! }
+var x: [Int] = readLine()!.components(separatedBy: " ").map { Int($0)! }
 
-for x in array2 {
-    let r: Int = binarySearch(x, array: array1, left: 0, right: array1.count-1)
+for e in x {
+    let r: Int = binarySearch(e, array: array, left: 0, right: array1.count-1)
     if r != -1 {
         print("yes", terminator: " ")
     } else {
