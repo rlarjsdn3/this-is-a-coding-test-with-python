@@ -52,5 +52,5 @@ func dfs(_ i: Int, _ now: Int) {
 dfs(1, num[0])
 
 // 최솟값, 최댓값 출략하기
-print(minValue)
 print(maxValue)
+print(minValue)
